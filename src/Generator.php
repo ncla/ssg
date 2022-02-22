@@ -86,9 +86,9 @@ class Generator
             ->bindGlide()
             ->backupViewPaths()
             ->clearDirectory()
-            ->createContentFiles()
             ->createSymlinks()
             ->copyFiles()
+            ->createContentFiles()
             ->outputSummary();
 
         if ($this->after) {
