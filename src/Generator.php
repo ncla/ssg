@@ -85,7 +85,6 @@ class Generator
         $this
             ->bindGlide()
             ->backupViewPaths()
-            ->clearDirectory()
             ->createSymlinks()
             ->copyFiles()
             ->createContentFiles()
